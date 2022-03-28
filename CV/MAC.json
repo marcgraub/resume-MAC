@@ -1,0 +1,447 @@
+{
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
+  "settings": {
+    "language": "EN",
+    "MACVersion": "0.3"
+  },
+  "aboutMe": {
+    "profile": {
+      "name": "Marc",
+      "surnames": "Grau Benaiges",
+      "title": "I'm in love with programming",
+      "description": "I am a software developer with 8 years of experience, looking to join teams with extensive experience and best practices, learn from them and expand my fields of knowledge.\n\nI enjoy helping others to solve difficult problems or at the very least, to have a better understanding of them.\nI care more about the projects than the technologies used.",
+      "avatar": {
+        "alt": "AvatarMaker.png",
+        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/667c3c72-573b-446e-a9a6-133ab1f57b0f_avatarmaker.png"
+      },
+      "location": {
+        "notes": "Tortosa, Spain"
+      }
+    },
+    "relevantLinks": [
+      {
+        "type": "linkedin",
+        "URL": "https://www.linkedin.com/in/marcgraub"
+      },
+      {
+        "type": "github",
+        "URL": "https://github.com/marcgraub"
+      },
+      {
+        "type": "twitter",
+        "URL": "https://twitter.com/marcgraub"
+      }
+    ],
+    "interestingFacts": [
+      {
+        "topic": "Read articles and experiences about software development",
+        "fact": "Read articles and experiences from professionals in the software development field, especially those published in Reedit's news feed in the r/programming section."
+      },
+      {
+        "topic": "Sport",
+        "fact": "Powerlifting"
+      },
+      {
+        "topic": "Technology projects",
+        "fact": "3D printing and electronics projects with Arduino and ESP32."
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Postgres as a CRON Server",
+        "type": "reading",
+        "URL": "https://supabase.com/blog/2021/03/05/postgres-as-a-cron-server",
+        "authors": [
+          {
+            "name": "Paul",
+            "surnames": "Copplestone - supabase",
+            "title": "Author"
+          }
+        ],
+        "summary": ""
+      },
+      {
+        "title": "Postgres Auditing in 150 lines of SQL",
+        "type": "reading",
+        "URL": "https://supabase.com/blog/2022/03/08/audit",
+        "authors": [
+          {
+            "name": "Oliver",
+            "surnames": "Rice - supabase",
+            "title": "Author"
+          }
+        ],
+        "summary": "Data auditing is a system that tracks changes to tables' contents over time. PostgreSQL has a robust set of features which we can leverage to create a generic auditing solution in 150 lines of SQL.\n\nAuditing is particularly useful for historical analysis. To demonstrate, imagine you have a users table that tracks when a user is online. You might add a status column which can have one of two values: online and offline. How would you track how long a user is online for throughout an entire month? An auditing system would track every change with timestamps, and so you can measure the difference between each timestamp and sum them up for the entire month."
+      }
+    ]
+  },
+  "experience": {
+    "jobs": [
+      {
+        "organization": {
+          "name": "Tierra Zen",
+          "image": {
+            "alt": "logo_horizontal.png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/ddfd3373-eaa9-4521-9e23-31bfea8846e5_logo_horizontal.png"
+          },
+          "URL": "https://tierrazen.com/"
+        },
+        "roles": [
+          {
+            "name": "Full-stack developer",
+            "startDate": "2017-01-01",
+            "challenges": [
+              {
+                "description": "Define and prioritize the development of new functionalities for a proprietary ERP system to sustain the growth of the company. Create relevant statistics using SQL queries.\n\nLead a small development team, 2 internal and 1 external developer, plus a designer, for the migration of an e-commerce from Drupal 7 to Sylius (PHP and Symfony).\n\nDevelopment of an online/offline sales application for representatives/sales reps, integrated into the ERP system with an API, using AngularDart, the Dart language, and PostgreSQL as a database. \n(Two small contributions to open source libraries were made during the development)\n\nDevelopment of a GraphQL API using API Platform (PHP and Symfony) that interconnects the e-commerce with a proprietary ERP system. Synchronization of products, stocks, prices, customers, addresses, orders, rates, and shipping methods. \n(The ERP database, also proprietary and on a remote server, lacks encrypted communications, to solve the problem, queries are made through an encrypted VPN connection using OpenVPN).\n\nImplementation of Docker for development and Docker Swarm for production. Implementation of pipelines for automatic deployments. Creation and maintenance of own Docker images due to the complexity of the connection with the proprietary ERP database.\n\nCompletion of an e-commerce migration from Drupal 6 to Drupal 7 and redesign of the front end. Migration from dedicated hosting to Google Cloud Platform instances, with logs and alerts.\n\nImplementation of a service where documentation can be created, implemented in all departments after employee training."
+              }
+            ],
+            "competences": [
+              {
+                "name": "PHP",
+                "type": "technology"
+              },
+              {
+                "name": "Symfony",
+                "type": "technology"
+              },
+              {
+                "name": "PostgreSQL",
+                "type": "technology"
+              },
+              {
+                "name": "MySQL",
+                "type": "technology"
+              },
+              {
+                "name": "GraphQL",
+                "type": "technology"
+              },
+              {
+                "name": "Google Cloud",
+                "type": "technology"
+              },
+              {
+                "name": "Docker",
+                "type": "technology"
+              },
+              {
+                "name": "Git",
+                "type": "technology"
+              },
+              {
+                "name": "GitLab",
+                "type": "technology"
+              },
+              {
+                "name": "Drupal",
+                "type": "technology"
+              },
+              {
+                "name": "Dart",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Globals",
+          "image": {
+            "alt": "globals-logo.png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/60a6a168-c4f9-43ee-be23-0c7801064a98_globals-logo.png"
+          },
+          "URL": "https://www.globals.cat/"
+        },
+        "roles": [
+          {
+            "name": "Full-stack developer",
+            "startDate": "2015-01-01",
+            "finishDate": "2017-01-01",
+            "challenges": [
+              {
+                "description": "Development of several cross-platform mobile applications using Ionic and a REST API with WordPress as backend.\n\nAngularJS developer to support a development team from a sports streaming channel management app.\n\nDevelopment of WordPress themes and plugins using PHP and JavaScript.\n\nFront-end developer for WordPress with HTML, CSS, and JavaScript."
+              }
+            ],
+            "competences": [
+              {
+                "name": "PHP",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "AngularJS",
+                "type": "technology"
+              },
+              {
+                "name": "HTML",
+                "type": "technology"
+              },
+              {
+                "name": "CSS",
+                "type": "technology"
+              },
+              {
+                "name": "MySQL",
+                "type": "technology"
+              },
+              {
+                "name": "WordPress",
+                "type": "technology"
+              },
+              {
+                "name": "REST",
+                "type": "technology"
+              },
+              {
+                "name": "Ionic",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "AGI Solucions informatiques SL / Ebre-Soft Consulting SL",
+          "image": {
+            "alt": "logo-amb-nom-blanc (1).png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/f06b9693-4d60-4ee7-9ef3-f362e4b48397_logo-amb-nom-blanc-(.png"
+          },
+          "URL": "https://ebresoft.cat/"
+        },
+        "roles": [
+          {
+            "name": "Software developer",
+            "startDate": "2014-01-01",
+            "finishDate": "2015-01-01",
+            "challenges": [
+              {
+                "description": "ERP system development using Windev environment and HFSQL database.\n\nDevelopment of electronic invoicing application using the language. (Windev and HFSQL)\n\nDevelopment of an application for a fish auction and another for the management of a fish market/fishermen's association. (Windev and HFSQL)\n\nDevelopment of automated integration services.\n\nDevelopment of picking, sales, offline sales, and labeling applications for Windows CE systems. (Windev and HFSQL)."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "studies": [
+      {
+        "studyType": "unaccredited",
+        "degreeAchieved": true,
+        "name": "Higher technician in computer network systems management",
+        "startDate": "2010-09-01",
+        "finishDate": "2012-06-01",
+        "institution": {
+          "name": "Institut de l'Ebre",
+          "description": "https://www.todofp.es/dam/jcr:525bf081-bd23-482f-bd89-1151f2498373/n-tsadministracionsistemasinformaticosreden-pdf.pdf",
+          "URL": "https://insebre.cat/",
+          "image": {
+            "alt": "logo_iesebre_2010_11 (1).png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/70822c14-3566-4f6d-8695-162166f74d62_logo_iesebre_2010_11.png"
+          }
+        },
+        "linkedCompetences": [
+          {
+            "name": "Linux",
+            "type": "technology"
+          },
+          {
+            "name": "Windows",
+            "type": "technology"
+          },
+          {
+            "name": "MySQL",
+            "type": "technology"
+          },
+          {
+            "name": "SQL",
+            "type": "technology"
+          },
+          {
+            "name": "XML",
+            "type": "technology"
+          },
+          {
+            "name": "HTML",
+            "type": "technology"
+          },
+          {
+            "name": "CSS",
+            "type": "technology"
+          },
+          {
+            "name": "WordPress",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "unaccredited",
+        "degreeAchieved": true,
+        "name": "Higher technician in multi-platform applications development",
+        "startDate": "2012-09-01",
+        "finishDate": "2013-06-01",
+        "institution": {
+          "name": "Institut de l'Ebre",
+          "description": "https://www.todofp.es/dam/jcr:7655e32d-08a3-47a7-a479-ddb6f032c63e/n-tsdesarrolloaplicacionesmultiplataformaen-pdf.pdf",
+          "URL": "https://insebre.cat/",
+          "image": {
+            "alt": "logo_iesebre_2010_11 (1).png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/a98fae02-9cb4-4db6-910a-b492e33f5cde_logo_iesebre_2010_11.png"
+          }
+        },
+        "linkedCompetences": [
+          {
+            "name": "Linux",
+            "type": "technology"
+          },
+          {
+            "name": "Windows",
+            "type": "technology"
+          },
+          {
+            "name": "PHP",
+            "type": "technology"
+          },
+          {
+            "name": "MySQL",
+            "type": "technology"
+          },
+          {
+            "name": "SQL",
+            "type": "technology"
+          },
+          {
+            "name": "C",
+            "type": "technology"
+          },
+          {
+            "name": "HTML",
+            "type": "technology"
+          },
+          {
+            "name": "CSS",
+            "type": "technology"
+          },
+          {
+            "name": "XML",
+            "type": "technology"
+          },
+          {
+            "name": "Android",
+            "type": "technology"
+          },
+          {
+            "name": "Android SDK",
+            "type": "technology"
+          },
+          {
+            "name": "Bash",
+            "type": "technology"
+          },
+          {
+            "name": "Python",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "unaccredited",
+        "degreeAchieved": true,
+        "name": "Technician in microcomputer systems and networks",
+        "startDate": "2008-09-01",
+        "finishDate": "2010-06-01",
+        "institution": {
+          "name": "IES Julio Antonio",
+          "description": "",
+          "image": {
+            "alt": "LOGO-NOU-1.jpg",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/78bd331c-2b5a-47a6-84cd-a9ab29bcc7fb_logo-nou-1.jpg"
+          }
+        },
+        "linkedCompetences": [
+          {
+            "name": "C",
+            "type": "technology"
+          },
+          {
+            "name": "SQL",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "unaccredited",
+        "degreeAchieved": true,
+        "name": "General Certificate of Secondary Education",
+        "startDate": "2003-09-01",
+        "finishDate": "2007-06-01",
+        "institution": {
+          "name": "IES Julio Antonio",
+          "description": "",
+          "image": {
+            "alt": "LOGO-NOU-1.jpg",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/3c74490f-33a1-459d-b301-7b24bbac8bd6_logo-nou-1.jpg"
+          }
+        }
+      }
+    ]
+  },
+  "careerPreferences": {
+    "contact": {
+      "publicProfiles": [
+        {
+          "type": "linkedin",
+          "URL": "https://www.linkedin.com/in/marcgraub"
+        }
+      ]
+    },
+    "preferences": {
+      "preferredCompetences": [
+        {
+          "name": "PHP",
+          "type": "technology"
+        },
+        {
+          "name": "Symfony",
+          "type": "technology"
+        },
+        {
+          "name": "Dart",
+          "type": "technology"
+        },
+        {
+          "name": "Flutter",
+          "type": "technology"
+        },
+        {
+          "name": "PostgreSQL",
+          "type": "technology"
+        },
+        {
+          "name": "SQL",
+          "type": "technology"
+        },
+        {
+          "name": "JavaScript",
+          "type": "technology"
+        },
+        {
+          "name": "Linux",
+          "type": "technology"
+        }
+      ],
+      "discardedCompetences": [
+        {
+          "name": "Drupal",
+          "type": "technology"
+        }
+      ]
+    }
+  }
+}
