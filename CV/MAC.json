@@ -72,6 +72,19 @@
           }
         ],
         "summary": "Data auditing is a system that tracks changes to tables' contents over time. PostgreSQL has a robust set of features which we can leverage to create a generic auditing solution in 150 lines of SQL.\n\nAuditing is particularly useful for historical analysis. To demonstrate, imagine you have a users table that tracks when a user is online. You might add a status column which can have one of two values: online and offline. How would you track how long a user is online for throughout an entire month? An auditing system would track every change with timestamps, and so you can measure the difference between each timestamp and sum them up for the entire month."
+      },
+      {
+        "title": "Writing Architecture Documents (for developers)",
+        "type": "reading",
+        "URL": "https://withatwist.dev/writing-architecture-documents-for-developers.html",
+        "authors": [
+          {
+            "name": "Tute",
+            "surnames": "Costa",
+            "title": "Author"
+          }
+        ],
+        "summary": "... postponed his solution in favor of determining a better architecture. He needed to write up a document to share ideas with everyone, ensuring we covered every pod’s needs and addressed the comparatively minor feature that led to these conversations."
       }
     ]
   },
@@ -97,23 +110,11 @@
             ],
             "competences": [
               {
+                "name": "Drupal",
+                "type": "technology"
+              },
+              {
                 "name": "PHP",
-                "type": "technology"
-              },
-              {
-                "name": "Symfony",
-                "type": "technology"
-              },
-              {
-                "name": "PostgreSQL",
-                "type": "technology"
-              },
-              {
-                "name": "MySQL",
-                "type": "technology"
-              },
-              {
-                "name": "GraphQL",
                 "type": "technology"
               },
               {
@@ -125,19 +126,31 @@
                 "type": "technology"
               },
               {
-                "name": "Git",
-                "type": "technology"
-              },
-              {
                 "name": "GitLab",
                 "type": "technology"
               },
               {
-                "name": "Drupal",
+                "name": "Git",
+                "type": "technology"
+              },
+              {
+                "name": "GraphQL",
+                "type": "technology"
+              },
+              {
+                "name": "Symfony",
                 "type": "technology"
               },
               {
                 "name": "Dart",
+                "type": "technology"
+              },
+              {
+                "name": "PostgreSQL",
+                "type": "technology"
+              },
+              {
+                "name": "MySQL",
                 "type": "technology"
               }
             ]
@@ -165,15 +178,7 @@
             ],
             "competences": [
               {
-                "name": "PHP",
-                "type": "technology"
-              },
-              {
-                "name": "JavaScript",
-                "type": "technology"
-              },
-              {
-                "name": "AngularJS",
+                "name": "WordPress",
                 "type": "technology"
               },
               {
@@ -185,11 +190,19 @@
                 "type": "technology"
               },
               {
-                "name": "MySQL",
+                "name": "JavaScript",
                 "type": "technology"
               },
               {
-                "name": "WordPress",
+                "name": "AngularJS",
+                "type": "technology"
+              },
+              {
+                "name": "PHP",
+                "type": "technology"
+              },
+              {
+                "name": "Ionic",
                 "type": "technology"
               },
               {
@@ -197,7 +210,7 @@
                 "type": "technology"
               },
               {
-                "name": "Ionic",
+                "name": "MySQL",
                 "type": "technology"
               }
             ]
@@ -383,7 +396,11 @@
         },
         "linkedCompetences": [
           {
-            "name": "Linux",
+            "name": "HTML",
+            "type": "technology"
+          },
+          {
+            "name": "CSS",
             "type": "technology"
           },
           {
@@ -395,23 +412,19 @@
             "type": "technology"
           },
           {
+            "name": "Linux",
+            "type": "technology"
+          },
+          {
             "name": "SQL",
             "type": "technology"
           },
           {
-            "name": "XML",
-            "type": "technology"
-          },
-          {
-            "name": "HTML",
-            "type": "technology"
-          },
-          {
-            "name": "CSS",
-            "type": "technology"
-          },
-          {
             "name": "WordPress",
+            "type": "technology"
+          },
+          {
+            "name": "XML",
             "type": "technology"
           }
         ]
@@ -433,27 +446,11 @@
         },
         "linkedCompetences": [
           {
-            "name": "Linux",
-            "type": "technology"
-          },
-          {
-            "name": "Windows",
+            "name": "Python",
             "type": "technology"
           },
           {
             "name": "PHP",
-            "type": "technology"
-          },
-          {
-            "name": "MySQL",
-            "type": "technology"
-          },
-          {
-            "name": "SQL",
-            "type": "technology"
-          },
-          {
-            "name": "C",
             "type": "technology"
           },
           {
@@ -465,7 +462,19 @@
             "type": "technology"
           },
           {
-            "name": "XML",
+            "name": "Windows",
+            "type": "technology"
+          },
+          {
+            "name": "C",
+            "type": "technology"
+          },
+          {
+            "name": "MySQL",
+            "type": "technology"
+          },
+          {
+            "name": "Linux",
             "type": "technology"
           },
           {
@@ -473,15 +482,19 @@
             "type": "technology"
           },
           {
+            "name": "SQL",
+            "type": "technology"
+          },
+          {
             "name": "Android SDK",
             "type": "technology"
           },
           {
-            "name": "Bash",
+            "name": "XML",
             "type": "technology"
           },
           {
-            "name": "Python",
+            "name": "Bash",
             "type": "technology"
           }
         ]
