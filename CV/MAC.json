@@ -92,73 +92,6 @@
     "jobs": [
       {
         "organization": {
-          "name": "Tierra Zen",
-          "image": {
-            "alt": "logo_horizontal.png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/ddfd3373-eaa9-4521-9e23-31bfea8846e5_logo_horizontal.png"
-          },
-          "URL": "https://tierrazen.com/"
-        },
-        "roles": [
-          {
-            "name": "Full-stack developer",
-            "startDate": "2017-01-01",
-            "challenges": [
-              {
-                "description": "Define and prioritize the development of new functionalities for a proprietary ERP system to sustain the growth of the company. Create relevant statistics using SQL queries.\n\nLead a small development team, 2 internal and 1 external developer, plus a designer, for the migration of an e-commerce from Drupal 7 to Sylius (PHP and Symfony).\n\nDevelopment of an online/offline sales application for representatives/sales reps, integrated into the ERP system with an API, using AngularDart, the Dart language, and PostgreSQL as a database. \n(Two small contributions to open source libraries were made during the development)\n\nDevelopment of a GraphQL API using API Platform (PHP and Symfony) that interconnects the e-commerce with a proprietary ERP system. Synchronization of products, stocks, prices, customers, addresses, orders, rates, and shipping methods. \n(The ERP database, also proprietary and on a remote server, lacks encrypted communications, to solve the problem, queries are made through an encrypted VPN connection using OpenVPN).\n\nImplementation of Docker for development and Docker Swarm for production. Implementation of pipelines for automatic deployments. Creation and maintenance of own Docker images due to the complexity of the connection with the proprietary ERP database.\n\nCompletion of an e-commerce migration from Drupal 6 to Drupal 7 and redesign of the front end. Migration from dedicated hosting to Google Cloud Platform instances, with logs and alerts.\n\nImplementation of a service where documentation can be created, implemented in all departments after employee training."
-              }
-            ],
-            "competences": [
-              {
-                "name": "Drupal",
-                "type": "technology"
-              },
-              {
-                "name": "PHP",
-                "type": "technology"
-              },
-              {
-                "name": "Google Cloud",
-                "type": "technology"
-              },
-              {
-                "name": "Docker",
-                "type": "technology"
-              },
-              {
-                "name": "GitLab",
-                "type": "technology"
-              },
-              {
-                "name": "Git",
-                "type": "technology"
-              },
-              {
-                "name": "GraphQL",
-                "type": "technology"
-              },
-              {
-                "name": "Symfony",
-                "type": "technology"
-              },
-              {
-                "name": "Dart",
-                "type": "technology"
-              },
-              {
-                "name": "PostgreSQL",
-                "type": "technology"
-              },
-              {
-                "name": "MySQL",
-                "type": "technology"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "organization": {
           "name": "Globals",
           "image": {
             "alt": "globals-logo.png",
@@ -234,6 +167,73 @@
             "challenges": [
               {
                 "description": "ERP system development using Windev environment and HFSQL database.\n\nDevelopment of electronic invoicing application using the language. (Windev and HFSQL)\n\nDevelopment of an application for a fish auction and another for the management of a fish market/fishermen's association. (Windev and HFSQL)\n\nDevelopment of automated integration services.\n\nDevelopment of picking, sales, offline sales, and labeling applications for Windows CE systems. (Windev and HFSQL)."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Tierra Zen",
+          "image": {
+            "alt": "logo_horizontal.png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/ddfd3373-eaa9-4521-9e23-31bfea8846e5_logo_horizontal.png"
+          },
+          "URL": "https://tierrazen.com/"
+        },
+        "roles": [
+          {
+            "name": "Full-stack developer",
+            "startDate": "2017-01-01",
+            "challenges": [
+              {
+                "description": "Define and prioritize the development of new functionalities for a proprietary ERP system to sustain the growth of the company. Create relevant statistics using SQL queries.\n\nLead a small development team, 2 internal and 1 external developer, plus a designer, for the migration of an e-commerce from Drupal 7 to Sylius (PHP and Symfony).\n\nDevelopment of an online/offline sales application for representatives/sales reps, integrated into the ERP system with an API, using AngularDart, the Dart language, and PostgreSQL as a database. \n(Two small contributions to open source libraries were made during the development)\n\nDevelopment of a GraphQL API using API Platform (PHP and Symfony) that interconnects the e-commerce with a proprietary ERP system. Synchronization of products, stocks, prices, customers, addresses, orders, rates, and shipping methods. \n(The ERP database, also proprietary and on a remote server, lacks encrypted communications, to solve the problem, queries are made through an encrypted VPN connection using OpenVPN).\n\nImplementation of Docker for development and Docker Swarm for production. Implementation of pipelines for automatic deployments. Creation and maintenance of own Docker images due to the complexity of the connection with the proprietary ERP database.\n\nCompletion of an e-commerce migration from Drupal 6 to Drupal 7 and redesign of the front end. Migration from dedicated hosting to Google Cloud Platform instances with Debian, logs and alerts.\n\nImplementation of a service where documentation can be created, implemented in all departments after employee training."
+              }
+            ],
+            "competences": [
+              {
+                "name": "Drupal",
+                "type": "technology"
+              },
+              {
+                "name": "PHP",
+                "type": "technology"
+              },
+              {
+                "name": "Google Cloud",
+                "type": "technology"
+              },
+              {
+                "name": "Docker",
+                "type": "technology"
+              },
+              {
+                "name": "GitLab",
+                "type": "technology"
+              },
+              {
+                "name": "Git",
+                "type": "technology"
+              },
+              {
+                "name": "GraphQL",
+                "type": "technology"
+              },
+              {
+                "name": "Symfony",
+                "type": "technology"
+              },
+              {
+                "name": "Dart",
+                "type": "technology"
+              },
+              {
+                "name": "PostgreSQL",
+                "type": "technology"
+              },
+              {
+                "name": "MySQL",
+                "type": "technology"
               }
             ]
           }
