@@ -74,6 +74,19 @@
         "summary": "Data auditing is a system that tracks changes to tables' contents over time. PostgreSQL has a robust set of features which we can leverage to create a generic auditing solution in 150 lines of SQL.\n\nAuditing is particularly useful for historical analysis. To demonstrate, imagine you have a users table that tracks when a user is online. You might add a status column which can have one of two values: online and offline. How would you track how long a user is online for throughout an entire month? An auditing system would track every change with timestamps, and so you can measure the difference between each timestamp and sum them up for the entire month."
       },
       {
+        "title": "10 Positive Software Developer Cultures That I Embrace",
+        "type": "reading",
+        "URL": "https://betterprogramming.pub/10-positive-software-developer-cultures-that-i-embrace-7ab2ed6f3bf9",
+        "authors": [
+          {
+            "name": "Elye",
+            "surnames": "Elye",
+            "title": "Author"
+          }
+        ],
+        "summary": "... establishing a positive developer working culture is so important. Below are 10 ways of doing so, in my experience."
+      },
+      {
         "title": "Writing Architecture Documents (for developers)",
         "type": "reading",
         "URL": "https://withatwist.dev/writing-architecture-documents-for-developers.html",
@@ -111,15 +124,7 @@
             ],
             "competences": [
               {
-                "name": "WordPress",
-                "type": "technology"
-              },
-              {
-                "name": "HTML",
-                "type": "technology"
-              },
-              {
-                "name": "CSS",
+                "name": "PHP",
                 "type": "technology"
               },
               {
@@ -131,11 +136,19 @@
                 "type": "technology"
               },
               {
-                "name": "PHP",
+                "name": "HTML",
                 "type": "technology"
               },
               {
-                "name": "Ionic",
+                "name": "CSS",
+                "type": "technology"
+              },
+              {
+                "name": "MySQL",
+                "type": "technology"
+              },
+              {
+                "name": "WordPress",
                 "type": "technology"
               },
               {
@@ -143,7 +156,7 @@
                 "type": "technology"
               },
               {
-                "name": "MySQL",
+                "name": "Ionic",
                 "type": "technology"
               }
             ]
@@ -192,11 +205,23 @@
             ],
             "competences": [
               {
-                "name": "Drupal",
+                "name": "PHP",
                 "type": "technology"
               },
               {
-                "name": "PHP",
+                "name": "Symfony",
+                "type": "technology"
+              },
+              {
+                "name": "PostgreSQL",
+                "type": "technology"
+              },
+              {
+                "name": "MySQL",
+                "type": "technology"
+              },
+              {
+                "name": "GraphQL",
                 "type": "technology"
               },
               {
@@ -208,31 +233,19 @@
                 "type": "technology"
               },
               {
-                "name": "GitLab",
-                "type": "technology"
-              },
-              {
                 "name": "Git",
                 "type": "technology"
               },
               {
-                "name": "GraphQL",
+                "name": "GitLab",
                 "type": "technology"
               },
               {
-                "name": "Symfony",
+                "name": "Drupal",
                 "type": "technology"
               },
               {
                 "name": "Dart",
-                "type": "technology"
-              },
-              {
-                "name": "PostgreSQL",
-                "type": "technology"
-              },
-              {
-                "name": "MySQL",
                 "type": "technology"
               }
             ]
