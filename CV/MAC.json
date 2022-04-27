@@ -48,6 +48,19 @@
     ],
     "recommendations": [
       {
+        "title": "Cracking the Docker CLI: How to Grasp Container Management Commands",
+        "type": "reading",
+        "URL": "https://iximiuz.com/en/posts/containers-101-container-mgmt-commands/",
+        "authors": [
+          {
+            "name": "Ivan",
+            "surnames": "Velichko",
+            "title": "Author"
+          }
+        ],
+        "summary": "When you are new to Docker (or Podman, or nerdctl, or alike), the number of commands to study might be truly overwhelming.\n\nDocker tries to control the complexity of its CLI by employing a neat grouping technique. The first thing you see after running docker help is a list of so-called Management Commands..."
+      },
+      {
         "title": "Postgres as a CRON Server",
         "type": "reading",
         "URL": "https://supabase.com/blog/2021/03/05/postgres-as-a-cron-server",
@@ -57,8 +70,7 @@
             "surnames": "Copplestone - supabase",
             "title": "Author"
           }
-        ],
-        "summary": ""
+        ]
       },
       {
         "title": "Postgres Auditing in 150 lines of SQL",
@@ -533,7 +545,6 @@
         "finishDate": "2010-06-01",
         "institution": {
           "name": "IES Julio Antonio",
-          "description": "",
           "image": {
             "alt": "LOGO-NOU-1.jpg",
             "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/78bd331c-2b5a-47a6-84cd-a9ab29bcc7fb_logo-nou-1.jpg"
@@ -558,7 +569,6 @@
         "finishDate": "2007-06-01",
         "institution": {
           "name": "IES Julio Antonio",
-          "description": "",
           "image": {
             "alt": "LOGO-NOU-1.jpg",
             "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/3c74490f-33a1-459d-b301-7b24bbac8bd6_logo-nou-1.jpg"
