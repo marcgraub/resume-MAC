@@ -89,7 +89,7 @@
       {
         "title": "Postgres Auditing in 150 lines of SQL",
         "type": "reading",
-        "URL": "https://supabase.com/blog/2022/03/08/audit",
+        "URL": "https://supabase.com/blog/audit",
         "authors": [
           {
             "name": "Oliver",
