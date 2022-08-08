@@ -102,7 +102,7 @@
       {
         "title": "Postgres as a CRON Server",
         "type": "reading",
-        "URL": "https://supabase.com/blog/2021/03/05/postgres-as-a-cron-server",
+        "URL": "https://supabase.com/blog/postgres-as-a-cron-server",
         "authors": [
           {
             "name": "Paul",
