@@ -20,33 +20,46 @@
     },
     "relevantLinks": [
       {
-        "type": "linkedin",
-        "URL": "https://www.linkedin.com/in/marcgraub"
-      },
-      {
         "type": "github",
         "URL": "https://github.com/marcgraub"
       },
       {
         "type": "twitter",
         "URL": "https://twitter.com/marcgraub"
+      },
+      {
+        "type": "linkedin",
+        "URL": "https://www.linkedin.com/in/marcgraub"
       }
     ],
     "interestingFacts": [
       {
-        "topic": "Read articles and experiences about software development",
-        "fact": "Read articles and experiences from professionals in the software development field, especially those published in Reedit's news feed in the r/programming section."
+        "topic": "Technology projects",
+        "fact": "3D printing and electronics projects with Arduino and ESP32."
       },
       {
         "topic": "Sport",
         "fact": "Powerlifting"
       },
       {
-        "topic": "Technology projects",
-        "fact": "3D printing and electronics projects with Arduino and ESP32."
+        "topic": "Read articles and experiences about software development",
+        "fact": "Read articles and experiences from professionals in the software development field, especially those published in Reedit's news feed in the r/programming section."
       }
     ],
     "recommendations": [
+      {
+        "title": "10 Positive Software Developer Cultures That I Embrace",
+        "type": "reading",
+        "URL": "https://betterprogramming.pub/10-positive-software-developer-cultures-that-i-embrace-7ab2ed6f3bf9",
+        "authors": [
+          {
+            "name": "Elye",
+            "surnames": "Elye",
+            "title": "Author"
+          }
+        ],
+        "summary": "... establishing a positive developer working culture is so important. Below are 10 ways of doing so, in my experience."
+      },
       {
         "title": "Cracking the Docker CLI: How to Grasp Container Management Commands",
         "type": "reading",
@@ -61,16 +74,17 @@
         "summary": "When you are new to Docker (or Podman, or nerdctl, or alike), the number of commands to study might be truly overwhelming.\n\nDocker tries to control the complexity of its CLI by employing a neat grouping technique. The first thing you see after running docker help is a list of so-called Management Commands..."
       },
       {
-        "title": "Postgres as a CRON Server",
+        "title": "How to build remote teams properly",
         "type": "reading",
-        "URL": "https://supabase.com/blog/2021/03/05/postgres-as-a-cron-server",
+        "URL": "https://vadimkravcenko.com/en/how-to-build-remote-teams-properly/",
         "authors": [
           {
-            "name": "Paul",
-            "surnames": "Copplestone - supabase",
+            "name": "Vadim",
+            "surnames": "Kravcenko",
             "title": "Author"
           }
-        ]
+        ],
+        "summary": "... Winning at the remote game means building your company in a way that empowers the employees, establishes self-sufficient teams that function autonomously with little supervision. Of course, the whole concept revolves around trust, but hey, if you don’t trust your employees, that’s another issue."
       },
       {
         "title": "Postgres Auditing in 150 lines of SQL",
@@ -86,17 +100,29 @@
         "summary": "Data auditing is a system that tracks changes to tables' contents over time. PostgreSQL has a robust set of features which we can leverage to create a generic auditing solution in 150 lines of SQL.\n\nAuditing is particularly useful for historical analysis. To demonstrate, imagine you have a users table that tracks when a user is online. You might add a status column which can have one of two values: online and offline. How would you track how long a user is online for throughout an entire month? An auditing system would track every change with timestamps, and so you can measure the difference between each timestamp and sum them up for the entire month."
       },
       {
-        "title": "10 Positive Software Developer Cultures That I Embrace",
+        "title": "Postgres as a CRON Server",
         "type": "reading",
-        "URL": "https://betterprogramming.pub/10-positive-software-developer-cultures-that-i-embrace-7ab2ed6f3bf9",
+        "URL": "https://supabase.com/blog/2021/03/05/postgres-as-a-cron-server",
         "authors": [
           {
-            "name": "Elye",
-            "surnames": "Elye",
+            "name": "Paul",
+            "surnames": "Copplestone - supabase",
+            "title": "Author"
+          }
+        ]
+      },
+      {
+        "title": "The two types of quality",
+        "type": "reading",
+        "URL": "https://zenorocha.com/the-two-types-of-quality",
+        "authors": [
+          {
+            "name": "Zeno",
+            "surnames": "Rocha",
             "title": "Author"
           }
         ],
-        "summary": "... establishing a positive developer working culture is so important. Below are 10 ways of doing so, in my experience."
+        "summary": "The Japanese define quality in two ways:\n\natarimae hinshitsu (当たり前品質)\nmiryokuteki hinshitsu (魅力的品質)\n\nUnderstanding the difference between them is the key to building products that users love."
       },
       {
         "title": "Writing Architecture Documents (for developers)",
@@ -110,24 +136,78 @@
           }
         ],
         "summary": "... postponed his solution in favor of determining a better architecture. He needed to write up a document to share ideas with everyone, ensuring we covered every pod’s needs and addressed the comparatively minor feature that led to these conversations."
-      },
-      {
-        "title": "How to build remote teams properly",
-        "type": "reading",
-        "URL": "https://vadimkravcenko.com/en/how-to-build-remote-teams-properly/",
-        "authors": [
-          {
-            "name": "Vadim",
-            "surnames": "Kravcenko",
-            "title": "Author"
-          }
-        ],
-        "summary": "... Winning at the remote game means building your company in a way that empowers the employees, establishes self-sufficient teams that function autonomously with little supervision. Of course, the whole concept revolves around trust, but hey, if you don’t trust your employees, that’s another issue."
       }
     ]
   },
   "experience": {
     "jobs": [
+      {
+        "organization": {
+          "name": "Tierra Zen",
+          "image": {
+            "alt": "logo_horizontal.png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/ddfd3373-eaa9-4521-9e23-31bfea8846e5_logo_horizontal.png"
+          },
+          "URL": "https://tierrazen.com/"
+        },
+        "roles": [
+          {
+            "name": "Full-stack developer",
+            "startDate": "2017-01-01",
+            "challenges": [
+              {
+                "description": "Define and prioritize the development of new functionalities for a proprietary ERP system to sustain the growth of the company. Create relevant statistics using SQL queries.\n\nLead a small development team, 2 internal and 1 external developer, plus a designer, for the migration of an e-commerce from Drupal 7 to Sylius (PHP and Symfony).\n\nDevelopment of an online/offline sales application for representatives/sales reps, integrated into the ERP system with an API, using AngularDart, the Dart language, and PostgreSQL as a database. \n(Two small contributions to open source libraries were made during the development)\n\nDevelopment of a GraphQL API using API Platform (PHP and Symfony) that interconnects the e-commerce with a proprietary ERP system. Synchronization of products, stocks, prices, customers, addresses, orders, rates, and shipping methods. \n(The ERP database, also proprietary and on a remote server, lacks encrypted communications, to solve the problem, queries are made through an encrypted VPN connection using OpenVPN).\n\nImplementation of Docker for development and Docker Swarm for production. Implementation of pipelines for automatic deployments. Creation and maintenance of own Docker images due to the complexity of the connection with the proprietary ERP database.\n\nCompletion of an e-commerce migration from Drupal 6 to Drupal 7 and redesign of the front end. Migration from dedicated hosting to Google Cloud Platform instances with Debian, logs and alerts.\n\nImplementation of a service where documentation can be created, implemented in all departments after employee training."
+              }
+            ],
+            "competences": [
+              {
+                "name": "Dart",
+                "type": "technology"
+              },
+              {
+                "name": "Docker",
+                "type": "technology"
+              },
+              {
+                "name": "Drupal",
+                "type": "technology"
+              },
+              {
+                "name": "Git",
+                "type": "technology"
+              },
+              {
+                "name": "GitLab",
+                "type": "technology"
+              },
+              {
+                "name": "Google Cloud",
+                "type": "technology"
+              },
+              {
+                "name": "GraphQL",
+                "type": "technology"
+              },
+              {
+                "name": "MySQL",
+                "type": "technology"
+              },
+              {
+                "name": "PHP",
+                "type": "technology"
+              },
+              {
+                "name": "PostgreSQL",
+                "type": "technology"
+              },
+              {
+                "name": "Symfony",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
       {
         "organization": {
           "name": "Globals",
@@ -149,19 +229,7 @@
             ],
             "competences": [
               {
-                "name": "PHP",
-                "type": "technology"
-              },
-              {
-                "name": "JavaScript",
-                "type": "technology"
-              },
-              {
                 "name": "AngularJS",
-                "type": "technology"
-              },
-              {
-                "name": "HTML",
                 "type": "technology"
               },
               {
@@ -169,11 +237,23 @@
                 "type": "technology"
               },
               {
+                "name": "HTML",
+                "type": "technology"
+              },
+              {
+                "name": "Ionic",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
                 "name": "MySQL",
                 "type": "technology"
               },
               {
-                "name": "WordPress",
+                "name": "PHP",
                 "type": "technology"
               },
               {
@@ -181,7 +261,7 @@
                 "type": "technology"
               },
               {
-                "name": "Ionic",
+                "name": "WordPress",
                 "type": "technology"
               }
             ]
@@ -209,83 +289,16 @@
             ]
           }
         ]
-      },
-      {
-        "organization": {
-          "name": "Tierra Zen",
-          "image": {
-            "alt": "logo_horizontal.png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/ddfd3373-eaa9-4521-9e23-31bfea8846e5_logo_horizontal.png"
-          },
-          "URL": "https://tierrazen.com/"
-        },
-        "roles": [
-          {
-            "name": "Full-stack developer",
-            "startDate": "2017-01-01",
-            "challenges": [
-              {
-                "description": "Define and prioritize the development of new functionalities for a proprietary ERP system to sustain the growth of the company. Create relevant statistics using SQL queries.\n\nLead a small development team, 2 internal and 1 external developer, plus a designer, for the migration of an e-commerce from Drupal 7 to Sylius (PHP and Symfony).\n\nDevelopment of an online/offline sales application for representatives/sales reps, integrated into the ERP system with an API, using AngularDart, the Dart language, and PostgreSQL as a database. \n(Two small contributions to open source libraries were made during the development)\n\nDevelopment of a GraphQL API using API Platform (PHP and Symfony) that interconnects the e-commerce with a proprietary ERP system. Synchronization of products, stocks, prices, customers, addresses, orders, rates, and shipping methods. \n(The ERP database, also proprietary and on a remote server, lacks encrypted communications, to solve the problem, queries are made through an encrypted VPN connection using OpenVPN).\n\nImplementation of Docker for development and Docker Swarm for production. Implementation of pipelines for automatic deployments. Creation and maintenance of own Docker images due to the complexity of the connection with the proprietary ERP database.\n\nCompletion of an e-commerce migration from Drupal 6 to Drupal 7 and redesign of the front end. Migration from dedicated hosting to Google Cloud Platform instances with Debian, logs and alerts.\n\nImplementation of a service where documentation can be created, implemented in all departments after employee training."
-              }
-            ],
-            "competences": [
-              {
-                "name": "PHP",
-                "type": "technology"
-              },
-              {
-                "name": "Symfony",
-                "type": "technology"
-              },
-              {
-                "name": "PostgreSQL",
-                "type": "technology"
-              },
-              {
-                "name": "MySQL",
-                "type": "technology"
-              },
-              {
-                "name": "GraphQL",
-                "type": "technology"
-              },
-              {
-                "name": "Google Cloud",
-                "type": "technology"
-              },
-              {
-                "name": "Docker",
-                "type": "technology"
-              },
-              {
-                "name": "Git",
-                "type": "technology"
-              },
-              {
-                "name": "GitLab",
-                "type": "technology"
-              },
-              {
-                "name": "Drupal",
-                "type": "technology"
-              },
-              {
-                "name": "Dart",
-                "type": "technology"
-              }
-            ]
-          }
-        ]
       }
     ]
   },
   "knowledge": {
     "languages": [
       {
-        "name": "Spanish"
+        "name": "Catalan"
       },
       {
-        "name": "Catalan"
+        "name": "Spanish"
       }
     ],
     "hardSkills": [
@@ -420,56 +433,6 @@
       {
         "studyType": "unaccredited",
         "degreeAchieved": true,
-        "name": "Higher technician in computer network systems management",
-        "startDate": "2010-09-01",
-        "finishDate": "2012-06-01",
-        "institution": {
-          "name": "Institut de l'Ebre",
-          "description": "https://www.todofp.es/dam/jcr:525bf081-bd23-482f-bd89-1151f2498373/n-tsadministracionsistemasinformaticosreden-pdf.pdf",
-          "URL": "https://insebre.cat/",
-          "image": {
-            "alt": "logo_iesebre_2010_11 (1).png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/70822c14-3566-4f6d-8695-162166f74d62_logo_iesebre_2010_11.png"
-          }
-        },
-        "linkedCompetences": [
-          {
-            "name": "HTML",
-            "type": "technology"
-          },
-          {
-            "name": "CSS",
-            "type": "technology"
-          },
-          {
-            "name": "Windows",
-            "type": "technology"
-          },
-          {
-            "name": "MySQL",
-            "type": "technology"
-          },
-          {
-            "name": "Linux",
-            "type": "technology"
-          },
-          {
-            "name": "SQL",
-            "type": "technology"
-          },
-          {
-            "name": "WordPress",
-            "type": "technology"
-          },
-          {
-            "name": "XML",
-            "type": "technology"
-          }
-        ]
-      },
-      {
-        "studyType": "unaccredited",
-        "degreeAchieved": true,
         "name": "Higher technician in multi-platform applications development",
         "startDate": "2012-09-01",
         "finishDate": "2013-06-01",
@@ -484,43 +447,7 @@
         },
         "linkedCompetences": [
           {
-            "name": "Python",
-            "type": "technology"
-          },
-          {
-            "name": "PHP",
-            "type": "technology"
-          },
-          {
-            "name": "HTML",
-            "type": "technology"
-          },
-          {
-            "name": "CSS",
-            "type": "technology"
-          },
-          {
-            "name": "Windows",
-            "type": "technology"
-          },
-          {
-            "name": "C",
-            "type": "technology"
-          },
-          {
-            "name": "MySQL",
-            "type": "technology"
-          },
-          {
-            "name": "Linux",
-            "type": "technology"
-          },
-          {
             "name": "Android",
-            "type": "technology"
-          },
-          {
-            "name": "SQL",
             "type": "technology"
           },
           {
@@ -528,11 +455,97 @@
             "type": "technology"
           },
           {
-            "name": "XML",
+            "name": "Bash",
             "type": "technology"
           },
           {
-            "name": "Bash",
+            "name": "C",
+            "type": "technology"
+          },
+          {
+            "name": "CSS",
+            "type": "technology"
+          },
+          {
+            "name": "HTML",
+            "type": "technology"
+          },
+          {
+            "name": "Linux",
+            "type": "technology"
+          },
+          {
+            "name": "MySQL",
+            "type": "technology"
+          },
+          {
+            "name": "PHP",
+            "type": "technology"
+          },
+          {
+            "name": "Python",
+            "type": "technology"
+          },
+          {
+            "name": "SQL",
+            "type": "technology"
+          },
+          {
+            "name": "Windows",
+            "type": "technology"
+          },
+          {
+            "name": "XML",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "unaccredited",
+        "degreeAchieved": true,
+        "name": "Higher technician in computer network systems management",
+        "startDate": "2010-09-01",
+        "finishDate": "2012-06-01",
+        "institution": {
+          "name": "Institut de l'Ebre",
+          "description": "https://www.todofp.es/dam/jcr:525bf081-bd23-482f-bd89-1151f2498373/n-tsadministracionsistemasinformaticosreden-pdf.pdf",
+          "URL": "https://insebre.cat/",
+          "image": {
+            "alt": "logo_iesebre_2010_11 (1).png",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/70822c14-3566-4f6d-8695-162166f74d62_logo_iesebre_2010_11.png"
+          }
+        },
+        "linkedCompetences": [
+          {
+            "name": "CSS",
+            "type": "technology"
+          },
+          {
+            "name": "HTML",
+            "type": "technology"
+          },
+          {
+            "name": "Linux",
+            "type": "technology"
+          },
+          {
+            "name": "MySQL",
+            "type": "technology"
+          },
+          {
+            "name": "SQL",
+            "type": "technology"
+          },
+          {
+            "name": "Windows",
+            "type": "technology"
+          },
+          {
+            "name": "WordPress",
+            "type": "technology"
+          },
+          {
+            "name": "XML",
             "type": "technology"
           }
         ]
@@ -589,19 +602,23 @@
     "preferences": {
       "preferredCompetences": [
         {
-          "name": "PHP",
-          "type": "technology"
-        },
-        {
-          "name": "Symfony",
-          "type": "technology"
-        },
-        {
           "name": "Dart",
           "type": "technology"
         },
         {
           "name": "Flutter",
+          "type": "technology"
+        },
+        {
+          "name": "JavaScript",
+          "type": "technology"
+        },
+        {
+          "name": "Linux",
+          "type": "technology"
+        },
+        {
+          "name": "PHP",
           "type": "technology"
         },
         {
@@ -613,11 +630,7 @@
           "type": "technology"
         },
         {
-          "name": "JavaScript",
-          "type": "technology"
-        },
-        {
-          "name": "Linux",
+          "name": "Symfony",
           "type": "technology"
         }
       ],
