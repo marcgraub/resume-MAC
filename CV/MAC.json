@@ -74,6 +74,19 @@
         "summary": "When you are new to Docker (or Podman, or nerdctl, or alike), the number of commands to study might be truly overwhelming.\n\nDocker tries to control the complexity of its CLI by employing a neat grouping technique. The first thing you see after running docker help is a list of so-called Management Commands..."
       },
       {
+        "title": "How to Build Products Users Love with Kevin Hale (How to Start a Startup 2014: Lecture 7)",
+        "type": "other",
+        "URL": "https://www.youtube.com/watch?v=12D8zEdOPYo",
+        "authors": [
+          {
+            "name": "Kevin",
+            "surnames": "Hale",
+            "title": "Author"
+          }
+        ],
+        "summary": "Kevin Hale, Founder of Wufoo and Partner at Y Combinator, explains how to build products that create a passionate user base invested in your startup's success."
+      },
+      {
         "title": "How to build remote teams properly",
         "type": "reading",
         "URL": "https://vadimkravcenko.com/en/how-to-build-remote-teams-properly/",
