@@ -15,7 +15,7 @@
         "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/667c3c72-573b-446e-a9a6-133ab1f57b0f_avatarmaker.png"
       },
       "location": {
-        "notes": "Tortosa, Spain"
+        "notes": "Tortosa"
       }
     },
     "relevantLinks": [
@@ -59,6 +59,19 @@
           }
         ],
         "summary": "... establishing a positive developer working culture is so important. Below are 10 ways of doing so, in my experience."
+      },
+      {
+        "title": "Accounting For Developers, Part I",
+        "type": "reading",
+        "URL": "https://www.moderntreasury.com/journal/accounting-for-developers-part-i",
+        "authors": [
+          {
+            "name": "Lucas",
+            "surnames": "Rocha",
+            "title": "Author"
+          }
+        ],
+        "summary": "As a payment operations startup, accounting principles are core to our work. We have seen them implemented at scale at some of the largest fintechs and marketplaces. Yet, accounting seems like an arcane topic when you’re starting out."
       },
       {
         "title": "Cracking the Docker CLI: How to Grasp Container Management Commands",
@@ -323,7 +336,37 @@
       },
       {
         "skill": {
-          "name": "Symfony",
+          "name": "Docker",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "GraphQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "PostgreSQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Google Cloud",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "AngularJS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Dart",
           "type": "technology"
         }
       },
@@ -335,7 +378,37 @@
       },
       {
         "skill": {
-          "name": "AngularJS",
+          "name": "SQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Ionic",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Symfony",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Drupal",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Bash",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "MySQL",
           "type": "technology"
         }
       },
@@ -353,25 +426,7 @@
       },
       {
         "skill": {
-          "name": "PostgreSQL",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "MySQL",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "GraphQL",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Google Cloud",
+          "name": "Scss",
           "type": "technology"
         }
       },
@@ -383,43 +438,7 @@
       },
       {
         "skill": {
-          "name": "Docker",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "SQL",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Scss",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Drupal",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Makefile",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Bash",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Ionic",
+          "name": "Debian",
           "type": "technology"
         }
       },
@@ -431,13 +450,7 @@
       },
       {
         "skill": {
-          "name": "Debian",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Dart",
+          "name": "Makefile",
           "type": "technology"
         }
       }
