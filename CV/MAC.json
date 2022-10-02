@@ -15,7 +15,9 @@
         "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/667c3c72-573b-446e-a9a6-133ab1f57b0f_avatarmaker.png"
       },
       "location": {
-        "notes": "Tortosa"
+        "country": "España",
+        "region": "Cataluña",
+        "municipality": "Tortosa"
       }
     },
     "relevantLinks": [
@@ -136,6 +138,19 @@
             "title": "Author"
           }
         ]
+      },
+      {
+        "title": "Software engineering practices",
+        "type": "reading",
+        "URL": "https://simonwillison.net/2022/Oct/1/software-engineering-practices/",
+        "authors": [
+          {
+            "name": "Simon",
+            "surnames": "Willison",
+            "title": "Author"
+          }
+        ],
+        "summary": "Gergely Orosz started a Twitter conversation asking about recommended “software engineering practices” for development teams.\n\n(I really like his rejection of the term “best practices” here: I always feel it’s prescriptive and misguiding to announce something as “best”.)\n\nI decided to flesh some of my replies out into a longer post."
       },
       {
         "title": "The two types of quality",
@@ -665,6 +680,12 @@
           "name": "Drupal",
           "type": "technology"
         }
+      ],
+      "preferredRoles": [
+        "Backend Developer",
+        "Frontend Developer",
+        "Full-stack Developer",
+        "Mobile Developer"
       ]
     }
   }
