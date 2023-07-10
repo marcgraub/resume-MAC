@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
   "settings": {
-    "language": "ES",
+    "language": "EN",
     "MACVersion": "0.3"
   },
   "aboutMe": {
@@ -9,32 +9,18 @@
       "name": "Marc",
       "surnames": "Grau Benaiges",
       "title": "I'm in love with programming",
-      "description": "I am a software developer with nine years of experience seeking to join teams to learn from them.\nLeaded small teams and projects in small companies.\nI like to help people solve complex problems or at least understand them better.",
+      "description": "I am a software developer with nine years of experience. I am motivated to learn from an experienced and dynamic team, seeking to solve problems effectively and facilitate a greater understanding of technical challenges. I aim to expand my knowledge and contribute to the team's success, helping it better understand potential challenges.",
       "avatar": {
-        "alt": "AvatarMaker.png",
-        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/667c3c72-573b-446e-a9a6-133ab1f57b0f_avatarmaker.png"
+        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/667c3c72-573b-446e-a9a6-133ab1f57b0f_avatarmaker.png",
+        "alt": "AvatarMaker.png"
       },
       "location": {
+        "notes": "Autocompleted using Google Maps API (id: ChIJSeV9iKTkoBIRXFtzqtnwUEc)",
         "country": "España",
         "region": "Cataluña",
-        "municipality": "Tortosa",
-        "notes": "Autocompleted using Google Maps API"
+        "municipality": "Tortosa"
       }
     },
-    "relevantLinks": [
-      {
-        "type": "github",
-        "URL": "https://github.com/marcgraub"
-      },
-      {
-        "type": "twitter",
-        "URL": "https://twitter.com/marcgraub"
-      },
-      {
-        "type": "linkedin",
-        "URL": "https://www.linkedin.com/in/marcgraub"
-      }
-    ],
     "interestingFacts": [
       {
         "topic": "Technology projects",
@@ -54,79 +40,79 @@
         "title": "10 Positive Software Developer Cultures That I Embrace",
         "type": "reading",
         "URL": "https://betterprogramming.pub/10-positive-software-developer-cultures-that-i-embrace-7ab2ed6f3bf9",
+        "summary": "... establishing a positive developer working culture is so important. Below are 10 ways of doing so, in my experience.",
         "authors": [
           {
             "name": "Elye",
             "surnames": "Elye",
             "title": "Author"
           }
-        ],
-        "summary": "... establishing a positive developer working culture is so important. Below are 10 ways of doing so, in my experience."
+        ]
       },
       {
         "title": "Accounting For Developers, Part I",
         "type": "reading",
         "URL": "https://www.moderntreasury.com/journal/accounting-for-developers-part-i",
+        "summary": "As a payment operations startup, accounting principles are core to our work. We have seen them implemented at scale at some of the largest fintechs and marketplaces. Yet, accounting seems like an arcane topic when you’re starting out.",
         "authors": [
           {
             "name": "Lucas",
             "surnames": "Rocha",
             "title": "Author"
           }
-        ],
-        "summary": "As a payment operations startup, accounting principles are core to our work. We have seen them implemented at scale at some of the largest fintechs and marketplaces. Yet, accounting seems like an arcane topic when you’re starting out."
+        ]
       },
       {
         "title": "Cracking the Docker CLI: How to Grasp Container Management Commands",
         "type": "reading",
         "URL": "https://iximiuz.com/en/posts/containers-101-container-mgmt-commands/",
+        "summary": "When you are new to Docker (or Podman, or nerdctl, or alike), the number of commands to study might be truly overwhelming.\n\nDocker tries to control the complexity of its CLI by employing a neat grouping technique. The first thing you see after running docker help is a list of so-called Management Commands...",
         "authors": [
           {
             "name": "Ivan",
             "surnames": "Velichko",
             "title": "Author"
           }
-        ],
-        "summary": "When you are new to Docker (or Podman, or nerdctl, or alike), the number of commands to study might be truly overwhelming.\n\nDocker tries to control the complexity of its CLI by employing a neat grouping technique. The first thing you see after running docker help is a list of so-called Management Commands..."
+        ]
       },
       {
         "title": "How to Build Products Users Love with Kevin Hale (How to Start a Startup 2014: Lecture 7)",
         "type": "other",
         "URL": "https://www.youtube.com/watch?v=12D8zEdOPYo",
+        "summary": "Kevin Hale, Founder of Wufoo and Partner at Y Combinator, explains how to build products that create a passionate user base invested in your startup's success.",
         "authors": [
           {
             "name": "Kevin",
             "surnames": "Hale",
             "title": "Author"
           }
-        ],
-        "summary": "Kevin Hale, Founder of Wufoo and Partner at Y Combinator, explains how to build products that create a passionate user base invested in your startup's success."
+        ]
       },
       {
         "title": "How to build remote teams properly",
         "type": "reading",
         "URL": "https://vadimkravcenko.com/en/how-to-build-remote-teams-properly/",
+        "summary": "... Winning at the remote game means building your company in a way that empowers the employees, establishes self-sufficient teams that function autonomously with little supervision. Of course, the whole concept revolves around trust, but hey, if you don’t trust your employees, that’s another issue.",
         "authors": [
           {
             "name": "Vadim",
             "surnames": "Kravcenko",
             "title": "Author"
           }
-        ],
-        "summary": "... Winning at the remote game means building your company in a way that empowers the employees, establishes self-sufficient teams that function autonomously with little supervision. Of course, the whole concept revolves around trust, but hey, if you don’t trust your employees, that’s another issue."
+        ]
       },
       {
         "title": "Postgres Auditing in 150 lines of SQL",
         "type": "reading",
         "URL": "https://supabase.com/blog/audit",
+        "summary": "Data auditing is a system that tracks changes to tables' contents over time. PostgreSQL has a robust set of features which we can leverage to create a generic auditing solution in 150 lines of SQL.\n\nAuditing is particularly useful for historical analysis. To demonstrate, imagine you have a users table that tracks when a user is online. You might add a status column which can have one of two values: online and offline. How would you track how long a user is online for throughout an entire month? An auditing system would track every change with timestamps, and so you can measure the difference between each timestamp and sum them up for the entire month.",
         "authors": [
           {
             "name": "Oliver",
             "surnames": "Rice - supabase",
             "title": "Author"
           }
-        ],
-        "summary": "Data auditing is a system that tracks changes to tables' contents over time. PostgreSQL has a robust set of features which we can leverage to create a generic auditing solution in 150 lines of SQL.\n\nAuditing is particularly useful for historical analysis. To demonstrate, imagine you have a users table that tracks when a user is online. You might add a status column which can have one of two values: online and offline. How would you track how long a user is online for throughout an entire month? An auditing system would track every change with timestamps, and so you can measure the difference between each timestamp and sum them up for the entire month."
+        ]
       },
       {
         "title": "Postgres as a CRON Server",
@@ -138,47 +124,46 @@
             "surnames": "Copplestone - supabase",
             "title": "Author"
           }
-        ],
-        "summary": ""
+        ]
       },
       {
         "title": "Software engineering practices",
         "type": "reading",
         "URL": "https://simonwillison.net/2022/Oct/1/software-engineering-practices/",
+        "summary": "Gergely Orosz started a Twitter conversation asking about recommended “software engineering practices” for development teams.\n\n(I really like his rejection of the term “best practices” here: I always feel it’s prescriptive and misguiding to announce something as “best”.)\n\nI decided to flesh some of my replies out into a longer post.",
         "authors": [
           {
             "name": "Simon",
             "surnames": "Willison",
             "title": "Author"
           }
-        ],
-        "summary": "Gergely Orosz started a Twitter conversation asking about recommended “software engineering practices” for development teams.\n\n(I really like his rejection of the term “best practices” here: I always feel it’s prescriptive and misguiding to announce something as “best”.)\n\nI decided to flesh some of my replies out into a longer post."
+        ]
       },
       {
         "title": "The two types of quality",
         "type": "reading",
         "URL": "https://zenorocha.com/the-two-types-of-quality",
+        "summary": "The Japanese define quality in two ways:\n\natarimae hinshitsu (当たり前品質)\nmiryokuteki hinshitsu (魅力的品質)\n\nUnderstanding the difference between them is the key to building products that users love.",
         "authors": [
           {
             "name": "Zeno",
             "surnames": "Rocha",
             "title": "Author"
           }
-        ],
-        "summary": "The Japanese define quality in two ways:\n\natarimae hinshitsu (当たり前品質)\nmiryokuteki hinshitsu (魅力的品質)\n\nUnderstanding the difference between them is the key to building products that users love."
+        ]
       },
       {
         "title": "Writing Architecture Documents (for developers)",
         "type": "reading",
         "URL": "https://withatwist.dev/writing-architecture-documents-for-developers.html",
+        "summary": "... postponed his solution in favor of determining a better architecture. He needed to write up a document to share ideas with everyone, ensuring we covered every pod’s needs and addressed the comparatively minor feature that led to these conversations.",
         "authors": [
           {
             "name": "Tute",
             "surnames": "Costa",
             "title": "Author"
           }
-        ],
-        "summary": "... postponed his solution in favor of determining a better architecture. He needed to write up a document to share ideas with everyone, ensuring we covered every pod’s needs and addressed the comparatively minor feature that led to these conversations."
+        ]
       }
     ]
   },
@@ -188,8 +173,8 @@
         "organization": {
           "name": "Tierra Zen",
           "image": {
-            "alt": "logo_horizontal.png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/ddfd3373-eaa9-4521-9e23-31bfea8846e5_logo_horizontal.png"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/ddfd3373-eaa9-4521-9e23-31bfea8846e5_logo_horizontal.png",
+            "alt": "logo_horizontal.png"
           },
           "URL": "https://tierrazen.com/"
         },
@@ -255,8 +240,8 @@
         "organization": {
           "name": "Globals",
           "image": {
-            "alt": "globals-logo.png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/60a6a168-c4f9-43ee-be23-0c7801064a98_globals-logo.png"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/60a6a168-c4f9-43ee-be23-0c7801064a98_globals-logo.png",
+            "alt": "globals-logo.png"
           },
           "URL": "https://www.globals.cat/"
         },
@@ -315,8 +300,8 @@
         "organization": {
           "name": "AGI Solucions informatiques SL / Ebre-Soft Consulting SL",
           "image": {
-            "alt": "logo-amb-nom-blanc (1).png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/f06b9693-4d60-4ee7-9ef3-f362e4b48397_logo-amb-nom-blanc-(.png"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/f06b9693-4d60-4ee7-9ef3-f362e4b48397_logo-amb-nom-blanc-(.png",
+            "alt": "logo-amb-nom-blanc (1).png"
           },
           "URL": "https://ebresoft.cat/"
         },
@@ -338,88 +323,22 @@
   "knowledge": {
     "languages": [
       {
-        "name": "Catalan",
+        "name": "CA",
         "level": "Native or bilingual proficiency"
       },
       {
-        "name": "English",
+        "name": "EN",
         "level": "Professional working proficiency"
       },
       {
-        "name": "Spanish",
+        "name": "ES",
         "level": "Native or bilingual proficiency"
       }
     ],
     "hardSkills": [
       {
         "skill": {
-          "name": "PHP",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Docker",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "GraphQL",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "PostgreSQL",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Google Cloud",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
           "name": "AngularJS",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Dart",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "JavaScript",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "SQL",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Ionic",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Symfony",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Drupal",
           "type": "technology"
         }
       },
@@ -431,31 +350,13 @@
       },
       {
         "skill": {
-          "name": "MySQL",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "HTML",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
           "name": "CSS",
           "type": "technology"
         }
       },
       {
         "skill": {
-          "name": "Scss",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Linux",
+          "name": "Dart",
           "type": "technology"
         }
       },
@@ -467,7 +368,49 @@
       },
       {
         "skill": {
-          "name": "Ubuntu",
+          "name": "Docker",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Drupal",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Google Cloud",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "GraphQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "HTML",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Ionic",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "JavaScript",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Linux",
           "type": "technology"
         }
       },
@@ -476,24 +419,130 @@
           "name": "Makefile",
           "type": "technology"
         }
+      },
+      {
+        "skill": {
+          "name": "MySQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "PHP",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "PostgreSQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "SQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Scss",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Symfony",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Ubuntu",
+          "type": "technology"
+        }
       }
     ],
     "studies": [
       {
         "studyType": "unaccredited",
         "degreeAchieved": true,
+        "name": "General Certificate of Secondary Education",
+        "startDate": "2003-09-01",
+        "institution": {
+          "name": "IES Julio Antonio",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/3c74490f-33a1-459d-b301-7b24bbac8bd6_logo-nou-1.jpg",
+            "alt": "LOGO-NOU-1.jpg"
+          }
+        },
+        "finishDate": "2007-06-01"
+      },
+      {
+        "studyType": "unaccredited",
+        "degreeAchieved": true,
+        "name": "Higher technician in computer network systems management",
+        "startDate": "2010-09-01",
+        "institution": {
+          "name": "Institut de l'Ebre",
+          "description": "https://www.todofp.es/dam/jcr:525bf081-bd23-482f-bd89-1151f2498373/n-tsadministracionsistemasinformaticosreden-pdf.pdf",
+          "URL": "https://insebre.cat/",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/70822c14-3566-4f6d-8695-162166f74d62_logo_iesebre_2010_11.png",
+            "alt": "logo_iesebre_2010_11 (1).png"
+          }
+        },
+        "finishDate": "2012-06-01",
+        "linkedCompetences": [
+          {
+            "name": "CSS",
+            "type": "technology"
+          },
+          {
+            "name": "HTML",
+            "type": "technology"
+          },
+          {
+            "name": "Linux",
+            "type": "technology"
+          },
+          {
+            "name": "MySQL",
+            "type": "technology"
+          },
+          {
+            "name": "SQL",
+            "type": "technology"
+          },
+          {
+            "name": "Windows",
+            "type": "technology"
+          },
+          {
+            "name": "WordPress",
+            "type": "technology"
+          },
+          {
+            "name": "XML",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "unaccredited",
+        "degreeAchieved": true,
         "name": "Higher technician in multi-platform applications development",
         "startDate": "2012-09-01",
-        "finishDate": "2013-06-01",
         "institution": {
           "name": "Institut de l'Ebre",
           "description": "https://www.todofp.es/dam/jcr:7655e32d-08a3-47a7-a479-ddb6f032c63e/n-tsdesarrolloaplicacionesmultiplataformaen-pdf.pdf",
           "URL": "https://insebre.cat/",
           "image": {
-            "alt": "logo_iesebre_2010_11 (1).png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/a98fae02-9cb4-4db6-910a-b492e33f5cde_logo_iesebre_2010_11.png"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/a98fae02-9cb4-4db6-910a-b492e33f5cde_logo_iesebre_2010_11.png",
+            "alt": "logo_iesebre_2010_11 (1).png"
           }
         },
+        "finishDate": "2013-06-01",
         "linkedCompetences": [
           {
             "name": "Android",
@@ -552,67 +601,16 @@
       {
         "studyType": "unaccredited",
         "degreeAchieved": true,
-        "name": "Higher technician in computer network systems management",
-        "startDate": "2010-09-01",
-        "finishDate": "2012-06-01",
-        "institution": {
-          "name": "Institut de l'Ebre",
-          "description": "https://www.todofp.es/dam/jcr:525bf081-bd23-482f-bd89-1151f2498373/n-tsadministracionsistemasinformaticosreden-pdf.pdf",
-          "URL": "https://insebre.cat/",
-          "image": {
-            "alt": "logo_iesebre_2010_11 (1).png",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/70822c14-3566-4f6d-8695-162166f74d62_logo_iesebre_2010_11.png"
-          }
-        },
-        "linkedCompetences": [
-          {
-            "name": "CSS",
-            "type": "technology"
-          },
-          {
-            "name": "HTML",
-            "type": "technology"
-          },
-          {
-            "name": "Linux",
-            "type": "technology"
-          },
-          {
-            "name": "MySQL",
-            "type": "technology"
-          },
-          {
-            "name": "SQL",
-            "type": "technology"
-          },
-          {
-            "name": "Windows",
-            "type": "technology"
-          },
-          {
-            "name": "WordPress",
-            "type": "technology"
-          },
-          {
-            "name": "XML",
-            "type": "technology"
-          }
-        ]
-      },
-      {
-        "studyType": "unaccredited",
-        "degreeAchieved": true,
         "name": "Technician in microcomputer systems and networks",
         "startDate": "2008-09-01",
-        "finishDate": "2010-06-01",
         "institution": {
           "name": "IES Julio Antonio",
-          "description": "",
           "image": {
-            "alt": "LOGO-NOU-1.jpg",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/78bd331c-2b5a-47a6-84cd-a9ab29bcc7fb_logo-nou-1.jpg"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/78bd331c-2b5a-47a6-84cd-a9ab29bcc7fb_logo-nou-1.jpg",
+            "alt": "LOGO-NOU-1.jpg"
           }
         },
+        "finishDate": "2010-06-01",
         "linkedCompetences": [
           {
             "name": "C",
@@ -623,20 +621,25 @@
             "type": "technology"
           }
         ]
+      }
+    ],
+    "softSkills": [
+      {
+        "skill": {
+          "name": "Adaptability to change",
+          "type": "practice"
+        }
       },
       {
-        "studyType": "unaccredited",
-        "degreeAchieved": true,
-        "name": "General Certificate of Secondary Education",
-        "startDate": "2003-09-01",
-        "finishDate": "2007-06-01",
-        "institution": {
-          "name": "IES Julio Antonio",
-          "description": "",
-          "image": {
-            "alt": "LOGO-NOU-1.jpg",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/28/3c74490f-33a1-459d-b301-7b24bbac8bd6_logo-nou-1.jpg"
-          }
+        "skill": {
+          "name": "Autonomy in learning",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Good written communication",
+          "type": "practice"
         }
       }
     ]
@@ -645,8 +648,25 @@
     "contact": {
       "publicProfiles": [
         {
-          "type": "linkedin",
-          "URL": "https://www.linkedin.com/in/marcgraub"
+          "URL": "https://www.linkedin.com/in/marcgraub",
+          "type": "linkedin"
+        },
+        {
+          "URL": "https://github.com/marcgraub",
+          "type": "github"
+        },
+        {
+          "URL": "https://twitter.com/marcgraub",
+          "type": "twitter"
+        }
+      ],
+      "contactMails": [
+        "marcgraub@gmail.com"
+      ],
+      "phoneNumbers": [
+        {
+          "number": "622473196",
+          "countryCode": "+34"
         }
       ]
     },
@@ -699,5 +719,51 @@
       ]
     },
     "status": "searchingActively"
+  },
+  "manfredSpecificData": {
+    "desiredJobDescription": "I would like a job with challenges. Working with people with more expertise than me is important.\n\nI would love to have good mentoring so I can keep improving my skills and time for training.",
+    "goodPractices": "Composition, testing, good naming practices, and writing code to be easy to read for others is my go-to for good practices.",
+    "bookmarks": [
+      {
+        "name": "10 Positive Software Developer Cultures That I Embrace",
+        "imageUrl": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/08/08/38635fca-f71e-49d7-af31-b41b098f6a88_0_chfgnranbfwcqwu1.png"
+      },
+      {
+        "name": "Accounting For Developers, Part I",
+        "imageUrl": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/08/29/51bac230-65c4-4eb8-bb83-f790d8825c2e_3877ecbad8798f39d401.svg"
+      },
+      {
+        "name": "Cracking the Docker CLI: How to Grasp Container Management Commands",
+        "imageUrl": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/08/08/d5604a4b-28fa-404d-8d33-4acaee163c7a_docker-mgmt-commands.png"
+      },
+      {
+        "name": "How to Build Products Users Love with Kevin Hale (How to Start a Startup 2014: Lecture 7)",
+        "imageUrl": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/08/09/30613353-4c8f-479d-b0a7-befe37dc4d7c_captura-de-pantalla-.png"
+      },
+      {
+        "name": "How to build remote teams properly",
+        "imageUrl": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/08/08/dcff4a73-b029-45c8-b729-aebadf85db65_image-1-1.png"
+      },
+      {
+        "name": "Postgres Auditing in 150 lines of SQL",
+        "imageUrl": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/08/08/26120d99-df8f-4ce9-b082-fe115ef2a8c1_ezgif-1-ed57cbe70d.png"
+      },
+      {
+        "name": "Postgres as a CRON Server",
+        "imageUrl": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/08/08/5e693338-77f7-4510-9f52-f22cea50bdfb_ezgif-1-3ab597ab95.png"
+      },
+      {
+        "name": "Software engineering practices",
+        "imageUrl": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/10/02/3c8c41c7-923f-4d9b-a4e1-f74ff3c1dcf1_shot-1.jpg"
+      },
+      {
+        "name": "The two types of quality",
+        "imageUrl": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/08/08/ed1ae8b5-abb6-4f00-b44e-919c829824b1_quality.jpg"
+      },
+      {
+        "name": "Writing Architecture Documents (for developers)",
+        "imageUrl": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/08/08/a978cd1f-f8ec-4b74-b144-6343ffa893b2_2021-10-21-homers-ca.jpg"
+      }
+    ]
   }
 }
