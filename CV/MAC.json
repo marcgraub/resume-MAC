@@ -461,6 +461,12 @@
           "name": "Ubuntu",
           "type": "technology"
         }
+      },
+      {
+        "skill": {
+          "name": "WordPress",
+          "type": "technology"
+        }
       }
     ],
     "studies": [
