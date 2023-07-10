@@ -733,7 +733,15 @@
         "type": "technology"
       },
       {
+        "name": "Docker",
+        "type": "technology"
+      },
+      {
         "name": "PHP",
+        "type": "technology"
+      },
+      {
+        "name": "SQL",
         "type": "technology"
       }
     ],
