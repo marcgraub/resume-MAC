@@ -312,7 +312,7 @@
             "finishDate": "2015-01-01",
             "challenges": [
               {
-                "description": "ERP system development using Windev environment and HFSQL database.\n\nDevelopment of electronic invoicing application using the language. (Windev and HFSQL)\n\nDevelopment of an application for a fish auction and another for the management of a fish market/fishermen's association. (Windev and HFSQL)\n\nDevelopment of automated integration services.\n\nDevelopment of picking, sales, offline sales, and labeling applications for Windows CE systems. (Windev and HFSQL)."
+                "description": "- Developed ERP systems using the Windev environment and HFSQL as a database.\n- Developed an electronic invoicing application (Windev and HFSQL).\n- I developed an application for fish auctions and another for managing the fish markets/fishermen's associations (Windev and HFSQL).\n- Developed automated integration services.\n- Developed picking, sales, offline sales, and labelling applications for Windows CE systems. (Windev and HFSQL)."
               }
             ]
           }
