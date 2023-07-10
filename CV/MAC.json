@@ -27,12 +27,12 @@
         "fact": "3D printing and electronics projects with Arduino and ESP32."
       },
       {
-        "topic": "Sport",
-        "fact": "Powerlifting"
-      },
-      {
         "topic": "Reading articles and experiences of professionals in software development",
         "fact": "Reading articles and experiences of professionals in software development, I like to know how other companies and professionals in the sector work."
+      },
+      {
+        "topic": "Sport",
+        "fact": "The sport of powerlifting"
       }
     ],
     "recommendations": [
