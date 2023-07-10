@@ -727,6 +727,12 @@
     "status": "searchingActively"
   },
   "manfredSpecificData": {
+    "mainStackTechs": [
+      {
+        "name": "Dart",
+        "type": "technology"
+      }
+    ],
     "desiredJobDescription": "I would like a job with challenges. Working with people with more expertise than me is important.\n\nI would love to have good mentoring so I can keep improving my skills and time for training.",
     "goodPractices": "Composition, testing, good naming practices, and writing code to be easy to read for others is my go-to for good practices.",
     "bookmarks": [
