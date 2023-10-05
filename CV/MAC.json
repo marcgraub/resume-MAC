@@ -140,6 +140,19 @@
         ]
       },
       {
+        "title": "The Absolute Minimum Every Software Developer Must Know About Unicode in 2023",
+        "type": "reading",
+        "URL": "https://tonsky.me/blog/unicode/",
+        "summary": "> There Ain’t No Such Thing As Plain Text.\nIt does not make sense to have a string without knowing what encoding it uses. You can no longer stick your head in the sand and pretend that “plain” text is ASCII.\n\nA lot has changed in 20 years. In 2003, the main question was: what encoding is this?",
+        "authors": [
+          {
+            "name": "Nikita",
+            "surnames": "Prokopov",
+            "title": "Author"
+          }
+        ]
+      },
+      {
         "title": "The two types of quality",
         "type": "reading",
         "URL": "https://zenorocha.com/the-two-types-of-quality",
@@ -783,6 +796,10 @@
       {
         "name": "Software engineering practices",
         "imageUrl": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/10/02/3c8c41c7-923f-4d9b-a4e1-f74ff3c1dcf1_shot-1.jpg"
+      },
+      {
+        "name": "The Absolute Minimum Every Software Developer Must Know About Unicode in 2023",
+        "imageUrl": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/10/05/0d4aa66d-87aa-43e1-90a5-be41972d5ded_utf8_trend2x.png"
       },
       {
         "name": "The two types of quality",
