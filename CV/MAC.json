@@ -1,8 +1,8 @@
 {
-  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.5/schema/schema.json",
   "settings": {
     "language": "EN",
-    "MACVersion": "0.3"
+    "MACVersion": "0.5"
   },
   "aboutMe": {
     "profile": {
@@ -178,6 +178,20 @@
           }
         ]
       }
+    ],
+    "relevantLinks": [
+      {
+        "type": "linkedin",
+        "URL": "https://www.linkedin.com/in/marcgraub"
+      },
+      {
+        "type": "github",
+        "URL": "https://github.com/marcgraub"
+      },
+      {
+        "type": "twitter",
+        "URL": "https://twitter.com/marcgraub"
+      }
     ]
   },
   "experience": {
@@ -337,14 +351,17 @@
     "languages": [
       {
         "name": "CA",
+        "fullName": "Catalán / Valenciano",
         "level": "Native or bilingual proficiency"
       },
       {
         "name": "EN",
+        "fullName": "Inglés",
         "level": "Professional working proficiency"
       },
       {
         "name": "ES",
+        "fullName": "Español",
         "level": "Native or bilingual proficiency"
       }
     ],
@@ -681,12 +698,6 @@
       ],
       "contactMails": [
         "marcgraub@gmail.com"
-      ],
-      "phoneNumbers": [
-        {
-          "number": "622473196",
-          "countryCode": "+34"
-        }
       ]
     },
     "preferences": {
